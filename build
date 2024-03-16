@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -rf ./pa.zip
+zip pa.zip setup.sh run_autograder
