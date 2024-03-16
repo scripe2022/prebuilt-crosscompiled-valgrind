@@ -3,6 +3,12 @@ apt update
 apt upgrade -y
 apt install -y build-essential gcc-arm-linux-gnueabihf binutils-arm-linux-gnueabi qemu qemu-user-static gcc g++ libc6-dbg-armhf-cross
 
+mkdir -p /usr/local/bin
+mkdir -p /usr/local/include/valgrind
+mkdir -p /usr/local/libexec/valgrind
+mkdir -p /usr/local/lib/pkgconfig
+mkdir -p /usr/local/lib/valgrind
+
 cp -r prebuilt/usr_local_bin /usr/local/bin/
 cp -r prebuilt/usr_local_include_valgrind /usr/local/include/valgrind/
 cp -r prebuilt/usr_local_libexec_valgrind /usr/local/libexec/valgrind/
