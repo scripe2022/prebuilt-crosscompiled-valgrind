@@ -18,5 +18,3 @@ cp -r prebuilt/usr_local_lib_valgrind /usr/local/lib/valgrind/
 cp /usr/arm-linux-gnueabihf/lib/ld-linux-armhf.so.3 /lib/
 cp -r /usr/arm-linux-gnueabihf/lib/debug/ /usr/lib/debug
 ln -s /usr/arm-linux-gnueabihf/lib/libc.so.6 /lib/
-
-chmod +x /usr/local/libexec/valgrind/memcheck-arm-linux
